@@ -1,0 +1,165 @@
+﻿===== 前 40 行 =====
+=== configure ===
+-- The C compiler identification is MSVC 19.44.35229.0
+-- The CXX compiler identification is MSVC 19.44.35229.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+cmd.exe : CMAKE_BUILD_TYPE=Release
+所在位置 行:3 字符: 1
++ & cmd.exe /c 'D:\ninfer\build-cpu.bat' 2>&1 | Tee-Object -FilePath 'D ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (CMAKE_BUILD_TYPE=Release:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+-- Could NOT find Git (missing: GIT_EXECUTABLE) 
+-- Could NOT find Git (missing: GIT_EXECUTABLE) 
+CMake Warning at cmake/build-info.cmake:14 (message):
+  Git not found.  Build info will not be accurate.
+Call Stack (most recent call first):
+  CMakeLists.txt:120 (include)
+
+
+-- The ASM compiler identification is MSVC
+-- Found assembler: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Found Threads: TRUE
+-- Warning: ccache not found - consider installing it for faster compilation or disable this warning with GGML_CCACHE=OFF
+-- CMAKE_SYSTEM_PROCESSOR: AMD64
+-- CMAKE_GENERATOR_PLATFORM: 
+
+===== ……中间 8,000+ 行编译输出已省略…… =====
+
+===== 后 120 行 =====
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\mciapi.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\mmsyscom.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\mmiscapi.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\mmsyscom.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\mmiscapi2.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\mmsyscom.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\playsoundapi.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\mmsyscom.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\mmeapi.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\mmsyscom.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\timeapi.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\mmsyscom.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\joystickapi.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\mmsyscom.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\poppack.h
+注意: 包含文件:     C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\nb30.h
+注意: 包含文件:     C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\rpc.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\pshpack8.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\rpcdce.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\rpcdcep.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\rpcnsi.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\rpcnterr.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\rpcasync.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\pshpack8.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\poppack.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\poppack.h
+注意: 包含文件:     C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\shellapi.h
+注意: 包含文件:     C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\winperf.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\pshpack8.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\poppack.h
+注意: 包含文件:     C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\winsock.h
+注意: 包含文件:     C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\wincrypt.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\bcrypt.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\ncrypt.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\dpapi.h
+注意: 包含文件:     C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\winefs.h
+注意: 包含文件:     C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\winscard.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\wtypes.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\rpcndr.h
+注意: 包含文件:        C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\pshpack8.h
+注意: 包含文件:        C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\rpcnsip.h
+注意: 包含文件:        C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\rpcsal.h
+注意: 包含文件:        C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\poppack.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\wtypesbase.h
+注意: 包含文件:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared\guiddef.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\winioctl.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\pshpack1.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\poppack.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\pshpack1.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\poppack.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\pshpack1.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\poppack.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\pshpack1.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\poppack.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\pshpack1.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\poppack.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\pshpack1.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\poppack.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\pshpack1.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\poppack.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\winsmcrd.h
+注意: 包含文件:     C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\winspool.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\prsht.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\pshpack8.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\poppack.h
+注意: 包含文件:     C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\ole2.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\pshpack8.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\objbase.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\pshpack8.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\combaseapi.h
+注意: 包含文件:        C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\pshpack8.h
+注意: 包含文件:        C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\unknwnbase.h
+注意: 包含文件:        C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\objidlbase.h
+注意: 包含文件:        C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\guiddef.h
+注意: 包含文件:        C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\cguid.h
+注意: 包含文件:        C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\poppack.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\coml2api.h
+注意: 包含文件:        C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\objidl.h
+注意: 包含文件:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\unknwn.h
+注意: 包含文件:        C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\propidlbase.h
+注意: 包含文件:         C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\oaidl.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\urlmon.h
+注意: 包含文件:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\oleidl.h
+注意: 包含文件:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\servprov.h
+注意: 包含文件:        C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\msxml.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\propidl.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\poppack.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\oleauto.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\pshpack8.h
+注意: 包含文件:       C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\poppack.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\poppack.h
+注意: 包含文件:     C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\commdlg.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\prsht.h
+注意: 包含文件:     C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\stralign.h
+注意: 包含文件:     C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\winsvc.h
+注意: 包含文件:     C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\mcx.h
+注意: 包含文件:     C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\imm.h
+注意: 包含文件:      C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\ime_cmodes.h
+注意: 包含文件:    C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\ws2def.h
+注意: 包含文件:     C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\inaddr.h
+注意: 包含文件:    C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\qos.h
+注意: 包含文件:   C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um\ws2tcpip.h
+注意: 包含文件:    C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\ws2ipdef.h
+注意: 包含文件:     C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\in6addr.h
+注意: 包含文件:   C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared\afunix.h
+注意: 包含文件:   C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include\cassert
+注意: 包含文件:    C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\assert.h
+注意: 包含文件:   C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\fcntl.h
+注意: 包含文件:   C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include\fstream
+注意: 包含文件:    C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include\__msvc_filebuf.hpp
+注意: 包含文件:   C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include\iostream
+注意: 包含文件:   C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include\random
+注意: 包含文件:    C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include\__msvc_int128.hpp
+注意: 包含文件:   C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include\regex
+注意: 包含文件:   C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include\unordered_set
+注意: 包含文件:  D:\ninfer\src\llama.cpp-prismml\common\..\vendor\sheredom/subprocess.h
+注意: 包含文件:  C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include\queue
+注意: 包含文件:   C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include\deque
+[326/326] Linking CXX executable bin\llama-server.exe
+BUILD_OK

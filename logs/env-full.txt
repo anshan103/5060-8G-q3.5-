@@ -1,0 +1,44 @@
+﻿# 环境报告
+生成时间: 2026-10-21 20:16:20
+
+## CPU
+型号: AMD Ryzen 9 9955HX 16-Core Processor
+逻辑核心: 32
+
+## GPU / 驱动
+0, NVIDIA GeForce RTX 5060 Laptop GPU, 617.14, 8151 MiB, 12.0
+
+## 内存
+物理内存: 15.2 GB
+可用: 7.1 GB
+
+## 系统
+产品名: Windows 10 Home China
+Build: 26200
+显示版本: 25H2
+架构: AMD64
+
+## 构建工具链
+MSVC: C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools
+MSVC 版本: 14.44.35207
+CMake(VS): cmake version 3.31.6-msvc6
+Ninja(VS): 存在
+CMake(PATH): 无
+Ninja(PATH): 无
+Git:         无
+CUDA_PATH:   无
+
+## 推理运行时
+Ollama: ollama version is 0.40.6
+Ollama 已加载: 无
+
+## 推理服务端口探测
+端口 8080 : 无响应
+端口 8090 : 无响应
+端口 8091 : 无响应
+端口 8095 : HTTP 200  {"data":[{"context_window":131072,"created":1792584987,"id":"ninfer-local","max_model_len":131072,"m
+
+## 磁盘
+C:\ 剩余    85.7 GB / 共   305.9 GB  (NTFS)
+D:\ 剩余    25.6 GB / 共   308.6 GB  (NTFS)
+E:\ 剩余    41.8 GB / 共   309.6 GB  (NTFS)
