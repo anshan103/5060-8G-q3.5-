@@ -1,0 +1,17 @@
+# 大文件与本地产物，不纳入版本控制
+*.gguf
+*.ninfer
+*.zip
+*.7z
+*.exe
+*.dll
+*.log.bak
+
+# 日志：只保留手工挑选的样本
+logs/*.tmp
+logs/*-raw.log
+
+# 系统
+Thumbs.db
+desktop.ini
+.DS_Store
